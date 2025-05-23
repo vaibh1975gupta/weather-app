@@ -17,7 +17,15 @@ function App() {
       
       
       
-          </>
+           
+      <h1>count</h1>
+      <button onclick={()=>{
+        setvalue(value+2);
+      }
+    }>add+2</button>
+    </>
+
+    
   )
 }
 
